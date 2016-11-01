@@ -16,6 +16,15 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
 html,
 body {
   height: 100%;
