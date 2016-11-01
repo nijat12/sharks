@@ -17,16 +17,6 @@ var app = angular
     $scope.contact = {name : '', email: '', message: ''};
 
 
-
-    $scope.openMail = function () {
-      var modalInstance = $uibModal.open({
-        animation: true,
-        templateUrl: 'views/mail.html',
-        backdrop: true,
-        scope: $scope
-      });
-    };
-
     $scope.openBuy = function () {
       var modalInstance2 = $uibModal.open({
         animation: true,

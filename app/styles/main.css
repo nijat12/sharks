@@ -341,8 +341,17 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .form-group .col-md-7 {
+    width: 100%;
+  }
+
   .form-horizontal .form-group {
     margin-left: 10px;
     margin-right: 0;
   }
+}
+
+.form-control.textarea {
+  height: 150px;
 }
