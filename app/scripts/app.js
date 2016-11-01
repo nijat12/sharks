@@ -8,7 +8,14 @@
  *
  * Main module of the application.
  */
-angular
-  .module('sharksApp', [
-    'ngAnimate'
-  ]);
+var app = angular
+  .module('shark', ['ui.router'])
+
+
+  .controller('MainCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });
