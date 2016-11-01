@@ -5,6 +5,8 @@ version 0.15.1.
 
 ## Build & development
 
+Run `bower install` installing dependencies.
+
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
